@@ -1,9 +1,9 @@
 # OIBSIP
-Here I  Share My Web Development Projects 
+Here I  Share My Web Development Projects. 
 This repository contains airways login page,
 Personal portfolio and temperature 🌡️ convertor
 using HTML,CSS and JS only can build my page 
-some google fonts and social media icons are imported from google
+some google fonts and social media icons are imported from google.
 some images are imported from website.
 #### Task1 Landing Page
 
