@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIRLINE TRAVEL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> 
+</head>
+<body  background="background.jpeg" >
+    <div  id="container" >
+        <div  id="head">
+            <ul style="padding-left: 0px;">
+                <li class="l1" style="padding-left: 100px; border:1px solid black;"> HOME</li>
+                <li  class="l1" style="padding-left: 100px; border:1px solid black;  "> STATUS</li>
+                <li class="l1"  style="padding-left: 100px; border:1px solid black;">MY TRIP</li>
+                <li  class="l1"style="padding-left: 100px; border:1px solid black;">CONTACT</li>
+            </ul>
+        </div>
+        <div id="main">
+            <div id="main1">
+                <div id="m1">
+                    <img  id="img1" src="img1.jpeg" alt="ERROR"/>
+
+                </div>
+             <h4> FEELS GOOD</h4>
+                <div id="m2">
+                    <img  id="img2" src="img2.jpeg" alt="ERROR"/>
+                </div>
+                <h4 id="h41">BEST SERVICE</h4>
+                <div id="m3">
+                    <img  id="img3" src="img3.jpeg" alt="ERROR"/>
+                </div>
+                <h4 id="h42"> HAPPY JOURNEY!!!</h4>
+            </div>
+            <div id="main2">
+                <div id="fom">
+                    <form >
+                        <p id="p1">AIRWAY BOOKING</p>
+                        <input type="text"  required placeholder="From">
+                        <input type="text" required  placeholder="To"><br><br>
+                        <input type="date"  required placeholder="Depature Date">
+                        <input type="time"  required  placeholder="Depature Time"><br><br>
+                        <select required >
+                            <option value="" > Preffered Airline</option>
+                            <option value="" > Indigo</option>
+                            <option value="" > Airline</option>
+                            <option value="" > Kingfisher</option>
+                        </select>
+                        <select required >
+                            <option value="" > Preffered Seating</option>
+                            <option value="" > Economy Class</option>
+                            <option value="" > Business Class</option>
+                            <option value="" > First Class</option>
+                        </select><br><br>
+                        <input type="number"required  placeholder="Adult">
+                        <input type="number"required  placeholder="Children(2-10)">
+                        <input type="number" required  placeholder="Infant(under2)"><br><br>
+                        <span > Select Your Fare</span>
+                        <input type="radio"  required   name="r">
+                        <label for="input-group" > One Way</label>
+                        <input type="radio" required  name="r">
+                        <label for="input-group" >Round Trip</label><br><br>
+                        <input type="date" required  placeholder="Return Date">
+                        <input type="time" required  placeholder="Return Time">
+                        <input type="text"required  placeholder="Any Message">
+                        <h3> PERSONAL DETAILS</h3>
+                        <input type="text" required  placeholder="Full Name">
+                        <input type="number"required   placeholder="Phone Number"><br><br>
+                        <input type="email" required   placeholder="Email"><br><br>
+                        <input type="button" value="Submit"   onclick="submit();"/>
+                        <input type="reset" value="Reset" onclick="clear();"/>
+                     </form>
+                </div>
+            </div>
+        </div>
+            <footer id="footer">
+                <div class="cont">
+                    <div class="row">
+                        <div class="footer-col">
+                        <h4>company</h4>
+                            <ul>
+                                <li><a href="#">about us</a></li>
+                                <li><a href="#">our services</a></li>
+                                <li><a href="#">privacy policy</a></li>
+                                <li><a href="#">affiliate program</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                        <h4>get help</h4>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">shipping</a></li>
+                                <li><a href="#">returns</a></li>
+                                <li><a href="#">order status</a></li>
+                                <li><a href="#">payment options</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                        <h4>online shop</h4>
+                            <ul>
+                                <li><a href="#">watch</a></li>
+                                <li><a href="#">bag</a></li>
+                                <li><a href="#">shoes</a></li>
+                                <li><a href="#">dress</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>follow us</h4>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    </div>
+</body>
+</html>

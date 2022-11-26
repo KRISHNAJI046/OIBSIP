@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css"/>
+   
+    <title>TEMPERATURE CONVERTOR</title>
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button{
+            display: none;
+        } 
+        option{
+            background-color:#7d76767b;
+        }
+    </style>
+</head>
+<body></body>
+   <div id="container">
+       <div id="head">
+            <h2> TEMPERATURE CONVERTOR</h2>
+        </div>
+        <div id="main">
+            <div id="left">
+                <span class="title"> ENTER THE TEMPERATURE</span><br><br>
+                <label class="title"> Degree</label>
+                <br><br>
+                <p> <input  id="deginp" type="number" name="deginput" placeholder="Enter Degree" ></p>
+                <br><br><br><br> <br>
+                <p class="title"> &nbsp; COVERTED FROM  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; COVERTED TO </p>
+                <br><br>
+                <p>
+                <select id="from">
+                    <option value="Celsius"> Celsius </option>
+                    <option value="Fahrenheit" > Fahrenheit </option>
+                    <option value="Kelvin" > Kelvin </option>
+                </select>
+               
+                <select id="to">
+                    <option value="Celsius"> Celsius </option>
+                    <option value="Fahrenheit" > Fahrenheit </option>
+                    <option value="Kelvin" > Kelvin </option>
+                </select>
+                <button id="btn" > CONVERT</button>
+                </p>
+
+            </div>
+            <div id="right">
+                <input  id="txtarea"type="number">
+                
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="script.js" >
+</script>
+</html>
